@@ -12,22 +12,75 @@ a {
     background-color: #1F2937;
     display: flex;
     align-items: center;
-    flex: 1;
     justify-content: space-evenly;
-    padding: 40px;
+    padding: 30px;
+    flex: 1;
 }
 
 .container>p {
-    font-size: 48px;
+    justify-content: center;
+    font-size: 24px;
     color: #F9FAF8;
-    flex: 2;
+    flex: 1;
 }
 
-.main {
+.extra-bold {
     font-size: 48px;
+    color: #F9FAF8;
+}
+
+.container.main {
+    font-size: 18px;
     color: #e5e7eb;
+    display: flex;
+}
+
+button {
+    background-color: #3882f6;
+    border-radius: 5px;
 }
 
 footer {
     background-color: #1F2937;
+}
+
+.productBox>p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    padding-block: 30px;
+}
+
+.illustrationBoxes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    max-width: fit-content;
+    padding: 0;
+}
+
+.emptybox {
+    display: flex;
+    flex-grow: 1;
+    text-align: center;
+    justify-content: space-between;
+    padding: 1em;
+    border: 2px solid blue;
+    width: 90px;
+    height: 90px;
+    border-radius: 10%;
+}
+
+.quote {
+    padding: 50px;
+    background-color: #e5e7eb;
+    font-size: 36px #1f2937;
+}
+
+.quote>p {
+    display: flex;
+    justify-content: end;
 }
