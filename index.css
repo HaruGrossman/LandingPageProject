@@ -18,7 +18,7 @@ a {
 }
 
 .container>p {
-    justify-content: center;
+    justify-content: start;
     font-size: 24px;
     color: #F9FAF8;
     flex: 1;
@@ -37,6 +37,7 @@ a {
 
 button {
     background-color: #3882f6;
+    color: #e5e7eb;
     border-radius: 5px;
 }
 
@@ -83,4 +84,16 @@ footer {
 .quote>p {
     display: flex;
     justify-content: end;
+}
+
+.signupContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 40px;
+    align-items: center;
+    padding: 20px;
+    background-color: #3882f6;
+    color: #e5e7eb;
+    border-radius: 15px;
 }
